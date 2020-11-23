@@ -4,6 +4,8 @@ gem_group :development, :test do
   gem 'capybara'
   gem 'webdrivers'
   gem 'faker'
+  gem 'vcr', '~> 5.0'
+  gem 'webmock', '~> 3.7', '>= 3.7.6'
 end
 
 initializer 'generators.rb', <<-CODE
